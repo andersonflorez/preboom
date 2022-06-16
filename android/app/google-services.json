@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193009135942",
+    "project_id": "preboom-4cd42",
+    "storage_bucket": "preboom-4cd42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193009135942:android:bec2c48881136c04f1b547",
+        "android_client_info": {
+          "package_name": "com.preboom.preboom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193009135942-jie3m9lklte1pvcp7ek95o2dfnduj37u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.preboom.preboom",
+            "certificate_hash": "951d83e486c7c6a5b69214f5915370d991e1ab4c"
+          }
+        },
+        {
+          "client_id": "193009135942-mpfb432daomn5a39sld2eetomiklout3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFj2BD81PvWiwfiPE5mSlXt1FyuVS60SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193009135942-mpfb432daomn5a39sld2eetomiklout3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

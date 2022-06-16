@@ -1,0 +1,65 @@
+name: preboom
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  firebase_core: ^1.14.1
+  firebase_auth: ^3.3.14
+  google_sign_in: ^5.3.0
+  shared_preferences: ^2.0.13
+  cloud_firestore: ^3.1.12
+  intl: ^0.17.0
+  flutter_html: ^2.2.1
+  zefyrka: ^1.1.1
+  file_picker: ^4.5.1
+  firebase_storage: ^10.2.13
+  flutter_svg: ^0.23.0+1
+  percent_indicator: ^4.0.0
+  cached_network_image: ^3.2.0
+  mask_text_input_formatter: ^2.3.0
+  url_launcher: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.jpg"
+  adaptive_icon_background: "assets/images/banner_signin.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
+    - family: Neutra
+      fonts:
+        - asset: assets/fonts/neutra/neutra-text-alt.otf
+        - asset: assets/fonts/neutra/neutra-text-bold.otf
+          weight: 700
+        - asset: assets/fonts/neutra/neutra-text-alt.otf
+          weight: 300
